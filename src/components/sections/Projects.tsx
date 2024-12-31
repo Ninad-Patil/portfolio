@@ -8,13 +8,13 @@ const Projects: React.FC = () => (
     <SectionTitle icon={BookOpen} title="Projects" />
     <div className="grid md:grid-cols-2 gap-8">
       <ProjectCard 
-        title="Zap Workflow Automation System"
+        title="React Playground –built with React and offers interactive games.  "
         description="A workflow automation platform allowing users to create, trigger, and execute workflows."
-        technologies={["React", "Node.js", "PostgreSQL", "Prisma", "Docker"]}
+        technologies={["React",]}
         achievements={[
-          "Built scalable backend with Node.js and Prisma",
-          "Implemented secure JWT authentication",
-          "Designed responsive frontend in React"
+          "Designed and developed an interactive web-based gaming platform with three games: Snake, Memory Match, and Bishop Movement Tracker.",
+          "Implemented dynamic grid rendering and responsive gameplay using React.js and state management hooks.",
+          "Demonstrated algorithmic problem-solving through features like real-time snake movement, memory pair matching, and chess bishop traversal."
         ]}
       />
     </div>
