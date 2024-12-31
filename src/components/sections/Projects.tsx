@@ -8,8 +8,8 @@ const Projects: React.FC = () => (
     <SectionTitle icon={BookOpen} title="Projects" />
     <div className="grid md:grid-cols-2 gap-8">
       <ProjectCard 
-        title="React Playground –built with React and offers interactive games.  "
-        description="A workflow automation platform allowing users to create, trigger, and execute workflows."
+        title="React Playground  "
+        description=" built with React and offers interactive games."
         technologies={["React",]}
         achievements={[
           "Designed and developed an interactive web-based gaming platform with three games: Snake, Memory Match, and Bishop Movement Tracker.",
