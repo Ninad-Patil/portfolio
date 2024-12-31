@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           <div className="animate-fadeIn relative">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full blur opacity-30 group-hover:opacity-40 transition duration-1000"></div>
             <img
-              src="https://avatars.githubusercontent.com/u/72431205?s=400&u=2edfdfd4bfb9228763af439e2f4ad7aa4000c16c&v=4?w=400&h=400&q=80"
+              src="https://avatars.githubusercontent.com/u/72431205?s=400&u=2edfdfd4bfb9228763af439e2f4ad7aa4000c16c&v=4?w=600&h=600&q=80"
               alt="Profile"
               className="relative w-48 h-48 rounded-full border-4 border-indigo-500/20 shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out"
             />
