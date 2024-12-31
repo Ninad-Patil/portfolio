@@ -7,7 +7,9 @@ const Achievements: React.FC = () => (
   <section>
     <SectionTitle icon={Award} title="Achievements" />
     <div className={`${colors.primary.card} rounded-lg shadow-md p-6`}>
-      <p className="text-lg">TCS CodeVita Finalist (Rank under 5000 out of 1 lakh+)</p>
+      <p className="text-lg">Pillai CodeChamps Hackathon Winner.</p>
+      <p className="text-lg">Headed the CodeWrites Club. (Organized various coding workshops in college)</p>
+      <p className="text-lg">Open Source Contributor on GitHub.</p>
     </div>
   </section>
 );
