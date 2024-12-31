@@ -13,14 +13,14 @@ const Hero: React.FC = () => {
           <div className="animate-fadeIn relative">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full blur opacity-30 group-hover:opacity-40 transition duration-1000"></div>
             <img
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80"
+              src="https://avatars.githubusercontent.com/u/72431205?s=400&u=2edfdfd4bfb9228763af439e2f4ad7aa4000c16c&v=4?w=400&h=400&q=80"
               alt="Profile"
               className="relative w-48 h-48 rounded-full border-4 border-indigo-500/20 shadow-xl hover:scale-105 transition-transform duration-300 ease-in-out"
             />
           </div>
           <div className="animate-slideUp text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-indigo-400 hover:from-indigo-100 hover:to-indigo-300 transition-colors">
-              Your Name
+              Ninad Patil
             </h1>
             <p className="text-xl mb-8 text-indigo-200/80 animate-fadeIn delay-200">Software Engineer</p>
             <SocialLinks />
@@ -33,9 +33,9 @@ const Hero: React.FC = () => {
 
 const SocialLinks: React.FC = () => (
   <div className="flex gap-4 animate-fadeIn delay-300 justify-center md:justify-start">
-    <SocialLink href="https://github.com" icon={Github} />
-    <SocialLink href="https://linkedin.com" icon={Linkedin} />
-    <SocialLink href="mailto:your.email@example.com" icon={Mail} />
+    <SocialLink href="https://github.com/Ninad-Patil" icon={Github} />
+    <SocialLink href="https://www.linkedin.com/in/ninad-patil-35a0661b0/" icon={Linkedin} />
+    <SocialLink href="mailto:ninad.patil198@gmail.com" icon={Mail} />
   </div>
 );
 
