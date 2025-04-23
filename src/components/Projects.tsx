@@ -7,7 +7,7 @@ const projects = [
   {
     title: "React Playground",
     description: "built with React and offers interactive games.",
-    link: "#",
+    link: "https://gamesportfolioo.netlify.app/",
     technologies: ["React"],
     highlights: [
       "Designed and developed an interactive web-based gaming platform with three games: Snake, Memory Match, and Bishop Movement Tracker.",
